@@ -33,21 +33,6 @@ This project provides CRUD operations for cab bookings with well-structured cont
 - **MySQL** (or any RDBMS)
 - **Maven**
 
----
-
-## 📁 Project Structure
-Cab-Booking/
-├── src
-│ ├── main
-│ │ ├── java/com/app/cabbooking
-│ │ │ ├── CabbookingApplication.java # Main class
-│ │ │ ├── controller/CabController.java # API endpoints
-│ │ │ ├── models/Cab.java # Entity (Cab Booking)
-│ │ │ ├── cabrepos/CabRepo.java # JPA Repository interface
-│ │ │ └── Exception/ResourceNotFoundException.java # Custom exception
-│ │ └── resources/application.properties # DB config
-└── pom.xml # Project dependencies
-
 
 ---
 
